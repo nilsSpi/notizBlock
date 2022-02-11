@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+}
+
+.bgContainer{
+    background-image: url("img/background.jpg");
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    
+}
+
+#savedNotes{
+    display: flex;
+    width: 50%;
+    color: white;
+    flex-wrap: wrap;
+    margin-left: 20px;
+
+}
+
+.block{
+    position: absolute;
+    right:10%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    
+    
+}
+
+.hide{
+    display: none;
+}
+
+.menu-container{
+font-size: smaller;
+
+}
+
+.header{
+    width: 100%;
+    border-bottom: 4px solid white;
+    
+}
+
+
+
+.card{
+    border: 2px solid green;
+    margin:10px;
+    background-color: rgba(0,0,0,.4);
+}
+
+.card>h3{
+font-weight: bold;
+color: aqua;
+}
